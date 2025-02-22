@@ -11,8 +11,8 @@
 기준 오름차순이 될 수 있도록 만들어줍니다. 이후 pintos에서 제공하는 test들을 통해 개선된 Alarm Clock
 이 잘 작동되는지 확인합니다.
  이와 같은 과정을 통해, Alarm clock을 No Busy-wait형태로 구현할 수 있습니다.
- 
------
+
+     
 # Report2 - Pintos에 우선순위 스케줄러(priority scheduler)를 구현
  현재 pintos에서 스레드 스케줄러는 round-robin 방식을 채택하고 있습니다. 이 방식은 스레드 간의 우선순위 없
 이 ready_list에 들어온 순서대로 실행되지만 제대로 된 우선순위 스케줄링이 이루어지지 않고 있습니다. 라운드로빈
